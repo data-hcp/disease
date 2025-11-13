@@ -19,14 +19,3 @@ All releases provide *derived files only* (e.g., `.fib`, `.fz`) suitable for tra
 | `am` | **Dimensional Connectomics of Anxious Misery** | RDoC NVS constructs (Loss, Sustained Threat); 200 AM + 50 HC; Prisma 3T HCP-aligned protocol; 1-year follow-up. | **CC BY-SA 4.0**. Please acknowledge ACCESS **CIS200026 & MED230052**. | 437 |
 
 > Many releases include `.gqi.fz` and/or `.qsdr.fz` tractography-ready volumes, plus metadata spreadsheets where applicable.
-
----
-
-## Quick Start
-
-### 1) Download
-Use GitHub Releases (GUI) or command line. Replace `<release>` with one of: `vfl`, `trd`, `ep`, `ecp`, `banda`, `am`.
-
-**curl (single file)**
-```bash
-curl -L -o sub-XXXX_dwi.qsdr.fz "https://github.com/data-hcp/disease/releases/download/<release>/sub-XXXX_dwi.qsdr.fz"
