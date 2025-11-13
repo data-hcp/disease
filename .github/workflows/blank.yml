@@ -75,22 +75,27 @@ jobs:
               title = rel.get("name") or tag
               body = rel.get("body") or ""
           
-              # Normalize line endings and strip
+              # Normalize newlines
               body = body.replace('\r\n', '\n').strip()
           
-              # --- Ensure title line ---
-              stripped = body.lstrip()
-              if not stripped.startswith("#"):
-                  body = f"# {title}\n\n{body}"
+              # --- Ensure first heading line ---
+              lines = body.splitlines() if body else []
+              if not lines:
+                  lines = [f"# **{title}**"]
+              else:
+                  first = lines[0].strip()
+                  # if not a heading, insert one
+                  if not first.startswith("#"):
+                      lines.insert(0, f"# **{title}**")
+                  else:
+                      # if first line starts with '## ' or '### ', promote to single '# '
+                      lines[0] = re.sub(r"^(#{2,3})\s*", "# ", first)
           
-              # --- Demote any existing headings from '#' -> '##' (but not the first title) ---
-              lines = body.splitlines()
-              if lines:
-                  new_lines = [lines[0]]  # keep first line as-is (# Title)
-                  for line in lines[1:]:
-                      # only replace if line starts with "# " (not "##", "###", etc.)
-                      new_lines.append(re.sub(r"^(# )", "## ", line))
-                  body = "\n".join(new_lines)
+              # --- Demote subsequent headings (# -> ##, but skip first line) ---
+              new_lines = [lines[0]]
+              for line in lines[1:]:
+                  new_lines.append(re.sub(r"^(# )", "## ", line))
+              body = "\n".join(new_lines)
           
               # --- Build release link section ---
               link = f"https://github.com/{account}/{repo_name}/releases/tag/{tag}"
