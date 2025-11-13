@@ -76,15 +76,25 @@ jobs:
               title = rel.get("name") or tag
               body = rel.get("body") or ""
           
-              # Clean body and detect if it starts with '#'
+              # Normalize line endings and strip
+              body = body.replace('\r\n', '\n').strip()
+          
+              # --- Ensure title line ---
               stripped = body.lstrip()
               if not stripped.startswith("#"):
                   body = f"# {title}\n\n{body}"
           
-              # --- build release link ---
-              link = f"https://github.com/{account}/{repo_name}/releases/tag/{tag}"
+              # --- Demote any existing headings from '#' -> '##' (but not the first title) ---
+              lines = body.splitlines()
+              if lines:
+                  new_lines = [lines[0]]  # keep first line as-is (# Title)
+                  for line in lines[1:]:
+                      # only replace if line starts with "# " (not "##", "###", etc.)
+                      new_lines.append(re.sub(r"^(# )", "## ", line))
+                  body = "\n".join(new_lines)
           
-              # --- output text with Release Link section ---
+              # --- Build release link section ---
+              link = f"https://github.com/{account}/{repo_name}/releases/tag/{tag}"
               text = f"{body}\n\n## Release Link\n{link}\n"
           
               fn = pathlib.Path(f"{tag}.md")
