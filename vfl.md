@@ -2,7 +2,7 @@
 
 ---
 
-# License
+## License
 
 The FIB files are shared under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). If you use these data, please acknowledge the contribution of ACCESS resources: CIS200026 & MED230052.
 
@@ -56,8 +56,6 @@ This research aims to fundamentally improve our understanding of how the brain c
 
 * Findings will guide the development of new, targeted therapeutic strategies to help patients with MD better use their spared vision.
 * Broader implications include advancing our understanding of neuroplasticity and brain adaptation in other forms of sensory loss and neurological disorders.
-
-
 
 ## Release Link
 https://github.com/data-hcp/disease/releases/tag/vfl

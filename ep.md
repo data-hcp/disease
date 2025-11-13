@@ -2,7 +2,7 @@
 
 ---
 
-# License
+## License
 
 The FIB files are shared under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). If you use these data, please acknowledge the contribution of ACCESS resources: CIS200026 & MED230052.
 
@@ -56,7 +56,6 @@ The **Human Connectome Project for Early Psychosis** builds on this foundation b
 ### **Significance**
 
 This project will create a publicly available, high-quality dataset combining neuroimaging, cognitive, behavioral, and genetic data in individuals with early psychosis. These data will provide an unprecedented opportunity to investigate the neural mechanisms underlying early psychosis and accelerate the development of more effective treatment strategies based on brain connectivity models.
-
 
 ## Release Link
 https://github.com/data-hcp/disease/releases/tag/ep

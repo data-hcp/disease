@@ -86,7 +86,5 @@ For inquiries, please contact the investigators directly.
 
 *Epilepsy, Medically Refractory Epilepsy, Temporal Lobe Epilepsy (TLE), Idiopathic TLE, Structural and Functional Connectivity, Magnetoencephalography (MEG)*
 
-
-
 ## Release Link
 https://github.com/data-hcp/disease/releases/tag/ecp

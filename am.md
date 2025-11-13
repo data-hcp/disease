@@ -2,7 +2,7 @@
 
 ---
 
-# License
+## License
 
 The FIB files are shared under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). If you use these data, please acknowledge the contribution of ACCESS resources: CIS200026 & MED230052.
 
@@ -66,7 +66,6 @@ By jointly investigating these constructs, the study aims to disentangle the bra
 * This project will create a **publicly available, richly characterized dataset** linking behavioral symptoms of anxious misery with brain circuitry changes.
 * Findings will advance our understanding of the **neurobiological mechanisms underlying anxiety, depression, and related disorders**.
 * Results will also provide critical insights into the development of **precision medicine approaches** for treating these complex conditions, based on individualized brain connectivity profiles.
-
 
 ## Release Link
 https://github.com/data-hcp/disease/releases/tag/am
