@@ -73,5 +73,6 @@ This study leverages the infrastructure and scientific advancements of the HCP t
 ---
 
 Would you like me to add a Funding and Publications section, or prepare this for a final document compilation?
+
 ## Release Link
 https://github.com/data-hcp/disease/releases/tag/trd

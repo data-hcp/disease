@@ -1,3 +1,5 @@
+# BANDA: Connectomes Related to Anxiety & Depression
+
 The Connectomes Related to Anxiety and Depression in Adolescents Project, also known as [Boston Adolescent Neuroimaging of Depression and Anxiety (BANDA)](https://banda-connect.github.io/index.html) is a collaborative effort among researchers at the Massachusetts General Hospital (MGH), Massachusetts Institute of Technology (MIT), McLean Hospital, and Boston University. We will focus on understanding psychiatric disorders in adolescence, in particular those associated with two leading causes of death in adolescents and young adults (suicide and substance-abuse related accidents). Our research is guided by the “Acute Threat/Fear” and the “Reward/Prediction Error” construct.
 
 https://humanconnectome.org/study/connectomes-related-anxiety-depression
@@ -77,5 +79,6 @@ Development Scale
 
 Parent diagnostic interview: Kiddie schedule for affective disorders and schizophrenia (KSADS); Weissman Family History Screen (FHS)
 Parent self-and child-report: Mood and Anxiety Symptoms Questionnaire (MASQ), State-trait Anxiety Inventory (STAI), Mood and Feeling Questionnaire - Parent report (MFQ PR), Child Behavior Checklist (CBCL)
+
 ## Release Link
 https://github.com/data-hcp/disease/releases/tag/banda

@@ -57,5 +57,6 @@ The **Human Connectome Project for Early Psychosis** builds on this foundation b
 
 This project will create a publicly available, high-quality dataset combining neuroimaging, cognitive, behavioral, and genetic data in individuals with early psychosis. These data will provide an unprecedented opportunity to investigate the neural mechanisms underlying early psychosis and accelerate the development of more effective treatment strategies based on brain connectivity models.
 
+
 ## Release Link
 https://github.com/data-hcp/disease/releases/tag/ep
