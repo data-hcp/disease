@@ -27,14 +27,13 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           python << 'PY'
-          import os, pathlib, requests
+          import os, pathlib, requests, re
           from requests.adapters import HTTPAdapter
           from urllib3.util.retry import Retry
           from requests.exceptions import ChunkedEncodingError
           
           repo = os.environ["GITHUB_REPOSITORY"]  # e.g. data-others/brain
           token = os.environ.get("GITHUB_TOKEN", "")
-          
           account, repo_name = repo.split("/")
           
           session = requests.Session()
