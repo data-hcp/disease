@@ -1,4 +1,4 @@
-# data-hcp/disease
+# Human Connectome Project (HCP) Disease Cohorts
 
 Preprocessed and derived **diffusion MRI connectomics** resources from Human Connectome Project (HCP)-aligned disease cohorts.  
 All releases provide *derived files only* (e.g., `.fib`, `.fz`) suitable for tractography and connectome analyses in DSI Studio and related tools.
