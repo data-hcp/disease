@@ -1,4 +1,4 @@
-### **Human Connectome Project for Early Psychosis**
+# **Human Connectome Project for Early Psychosis**
 
 ---
 

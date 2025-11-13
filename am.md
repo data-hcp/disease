@@ -1,4 +1,4 @@
-### **Dimensional Connectomics of Anxious Misery**
+# **Dimensional Connectomics of Anxious Misery**
 
 ---
 

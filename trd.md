@@ -1,4 +1,4 @@
-### **Perturbation of the Treatment-Resistant Depression (TRD) Connectome by Fast-Acting Therapies**
+# **Perturbation of the Treatment-Resistant Depression (TRD) Connectome by Fast-Acting Therapies**
 
 ---
 

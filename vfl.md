@@ -1,4 +1,4 @@
-### **Changes in Visual Cortical Connectivity Following Central Visual Field Loss**
+# **Changes in Visual Cortical Connectivity Following Central Visual Field Loss**
 
 ---
 

@@ -1,4 +1,4 @@
-### **Epilepsy Connectome Project (ECP)**
+# **Epilepsy Connectome Project (ECP)**
 
 ---
 
